@@ -1,0 +1,162 @@
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:30px;
+}
+.player img{
+
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.player{
+    display: flex;
+align-items: center;
+
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+.top-players {
+   
+    
+margin-bottom: 30px;
+}
+
+.container{
+    width: 870px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+main{
+    display: flex;
+    justify-content: center;
+flex-direction: column;
+align-items: center;
+    
+}
+hr{
+    border: 1px solid #131212;
+    margin-bottom: 30px;
+}
+.header-title{
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 3px;
+    
+}
+.Name{
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+
+.blogs img{
+    width: 180px;
+    height:110px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+
+
+.blog{
+    display: flex;
+}
+
+ h3{
+margin:5px 0;
+}
+.picture-details{
+    margin-left: 16px;
+}
+.blog h3{
+    font-size: 20px;
+}
+
+.picture-details a{
+    text-decoration:none;
+    color: #562EFF;
+}
+
+.course{
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px rgb(235, 231, 231);
+    align-items: center;
+}
+
+.authour{
+    color: rgb(155, 153, 153);
+    font-size: 16px;
+}
+.tomato{
+    color: tomato;
+}
+.course-pic img{
+width: 190px;
+height: 130px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:24px;
+
+    
+}
+.container{
+    margin-top: 40px;
+    
+}
+.fa-star{
+    font-size: 12px;
+}
+
+
+.fa-star.fill{
+    color: #FFC014;
+    
+}
+.fa-star.empty{
+    color: #AEAEAE;
+    
+}
+.info{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+     
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width:688px){
+.players,.blogs, .courses{
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+  
+
+}
+.container{
+    width: 100%;
+}
+.player, .blog, .course{
+
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.course{
+    margin-top: 20px;
+}
+
+}
